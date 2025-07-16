@@ -1,0 +1,343 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* navigation bar*/
+.nav1{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/*h1 tag in navigation bar hover*/
+.navh1{
+    font-size: 40px;
+    margin-left: 20px;
+    font-family: "Playfair Display", serif;
+}
+.navh1:hover{
+    color: rgb(204, 192, 192);
+}
+
+/*div tag in nav*/
+.navp{
+    display: flex;
+    column-gap: 20px;
+    
+}
+
+/*a tag in div (in nav) and hover */
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px; 
+}
+a:hover{
+    text-decoration:underline;
+}
+
+/*main photo ( div)*/
+.mainphoto{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 80px;
+    justify-content: center;
+    padding: 50px;
+    
+}
+/*header text h2 in div*/
+.mph1{
+    font-size: 55px;
+    position: relative;
+    right:70px ;
+    color: rgb(110, 108, 108);
+    font-family: "Dancing Script", cursive;  
+    
+}
+/*header text h3 in div*/
+.mph2{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    position: relative;
+    top: 7px;
+}
+/*header button in div*/
+.button1{
+    margin-top: 30px;
+    margin-left: 150px;
+    background-color: rgb(39, 36, 36);
+    color: rgb(219, 213, 213);
+    padding: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+/*image in header div */
+.mainimg{
+    padding-right:40px;
+    position: relative;
+    bottom: 130px;
+
+    
+    
+}
+
+/*----------  2nd section starts from here  -----------------*/
+/*main container*/
+.homepagesection2{
+    margin-top: 3px;
+    height: 350px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #ffffff;
+
+}
+
+/*h1 in main container*/
+.hps2h1{
+    font-size: 50px;
+    margin-left: 30px;
+    padding-top: 20px;
+    font-family: "Cormorant Garamond";
+    font-weight: 100;
+    
+}
+/* sub container 1*/
+.hps2sub1{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    margin-top: 0px;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/*text in sub container*/
+.hps2p{
+    font-size: 22px;
+    padding: 20px;
+    
+}
+.hps2title:hover{
+    color: rgb(138, 98, 37);
+    font-size: 25px;
+    
+    
+}
+
+/* main sub container 2*/
+.hps2sub2{
+    display : flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    
+}
+
+
+/* sub container 1 in sub conatiner 2*/
+.hps2subb1{
+    height: 180px;
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 20px;
+   
+}
+.hps2subb1:hover .hps2p1{
+    color: rgb(105, 108, 108);
+}
+
+.hps2p1{
+    font-size: 30px;
+    padding: 5px;
+    font-family: serif;
+    
+}
+
+
+.hps2p2{
+
+    font-size: 20px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+
+
+/*footer starts here*/
+/*main div*/
+
+.footer{
+    height: 200px;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+.fh1{
+    font-size: 40px;
+    padding-top: 30px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+
+
+
+.footermedia{
+    
+    display: flex;
+    
+    margin-top:40px;
+    margin-left: 235px;
+}
+.fmedia{
+    font-size: 20px;
+    padding-left: 40px;
+    
+}
+
+.footerend{
+    display: flex;
+    justify-content: center;
+}
+.fend{
+     
+    font-size: 20px;
+    margin-left:20px ;
+    margin-top: 35px;
+    
+}
+
+/*footer ends here*/
+
+
+
+
+
+
+
+/*---------- collection section starts from here  -----------------*/
+
+
+.men{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 50px;
+    color: rgb(153, 158, 163);
+    margin-bottom: 20px;
+    
+}
+.mencollection{
+    background-color: rgb(255, 255, 255);
+    height: 80% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   margin-top: 60px;
+    
+    
+} 
+.men1{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 40px;
+}
+.men1:hover{
+    
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+
+}
+
+.menimg{
+    
+    height: 230px;
+    width: 250px;
+    padding: 20px;
+    padding-left: 20px;
+
+}
+.menh1{
+    padding-left: 20px;
+    color: rgb(43, 43, 37);
+    
+
+}
+.menpb{
+    display: flex;
+}
+.menprice{
+    padding: 22px;
+    font-size: 20px;
+    color: #000000;
+    padding-top: 19px;
+    margin-top:2px ;
+    margin-bottom: 14px;
+   
+    
+}
+.menbuy{
+    margin-left:100px ;
+    margin-top: 20px;
+    background-color: rgb(248, 245, 245);
+    padding: 6px;
+    border-radius: 10px;
+    
+
+}
+.menbuy:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+
+}
+
+/*---------- contact us section starts from here  -----------------*/
+
+.contact{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    height: 600px;
+    width: 60%;
+    margin-top: 100px;
+    margin-left: 280px;
+    
+    
+    display: flex;
+    flex-direction: column;
+}
+.cth1{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.ctd2{
+    background-color: rgb(255, 255, 255);
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 20px;
+    
+
+
+}
+.catd{
+    margin-top: 10px;
+    height: 480px;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.f1{
+    font-size: 30px;
+}
+.finp{
+    font-size: 30px;
+    border-radius: 10px;
+    width: 600px;
+
+}
+.sumit{
+    margin-left:330px ;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    font-size: 150px;
+}
