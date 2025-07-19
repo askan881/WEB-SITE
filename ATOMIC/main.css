@@ -1,0 +1,265 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.header-div{
+    background-color: black;
+    display: flex;
+    height: 120px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.header-div-h1{
+    color: aliceblue;
+    font-size: 80px;
+    padding-left: 40px;
+    padding-top: 20px;
+    
+}
+.header-div-ul{
+    display: inline;
+    margin-top: 80px;
+    margin-left: 55%;
+    
+   
+ 
+}
+
+.header-div-li{
+    color: aliceblue;
+    padding-left: 25px;
+    display: inline-flex;
+    font-size: 20px;
+    
+    
+
+}
+.header-div-li:hover{
+   
+}
+
+.home-page-div1-p{
+    color: rgb(255, 250, 250);
+    font-family: "Playfair Display", serif;
+    font-size: 92px;
+    margin-right: 200px;
+    margin-left: 13.5%;
+
+    position:relative;
+    bottom:180px ;
+  
+}
+
+.home-page-div1-img{
+    margin-top: 20px;
+    margin-left: 20%;
+
+}
+
+.home-page-main-div2{
+    background-color: rgb(0, 0, 0);
+     height: 340px;
+    
+     
+}
+.home-page-main-div2-h1{
+    color: aliceblue;
+    font-size: 60px;
+    font-family: "Cormorant Garamond", serif;
+    margin-left: 30px;
+}
+
+.home-page-main-div2-sub-div2{
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.home-page-main-div2-sub-div2-1{
+    background-color: rgb(15, 15, 15);
+    height: 180px;
+    width: 18%;
+    padding: 20px;
+    margin-top: 20px;
+    
+    
+   
+}
+
+
+.home-page-main-div3{
+
+    height: 60px;
+    background-color: bisque;
+    margin-top:40px;
+
+}
+
+
+
+.homepage-coll-div{
+    height: 450px;
+    background-color: rgb(0, 0, 0);
+    
+   
+}
+.homepage-coll-div-h1{
+    color: white;
+    font-size: 80px;
+    margin-left: 350px;
+}
+
+.homepage-coll-div-sub{
+    display: flex;
+}
+
+.homepage-coll-div-sub1{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(17, 18, 18);
+    margin-left: 70px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.rolexlogo{
+    width: 120px;
+    height: 120px;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+.homepage-coll-div-p1{
+    font-size: 30px;
+    color: aliceblue;
+    margin-top: 30px;
+    margin-left:70px ;
+
+}
+.homepage-coll-div-p11{
+    font-size: 27px;
+    color: aliceblue;
+    margin-top: 25px;
+    margin-left:19px ;
+
+}
+.homepage-coll-div-p{
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(26, 26, 26);
+    color: aliceblue;
+    border-radius: 10px;  
+    display: inline-flex;
+}
+    
+.store-coll-div1{
+    background-color: rgb(255, 252, 252);
+    height: 2080px;
+    
+
+}
+
+.store-coll-div1-sub1{
+    background-color: rgb(0, 0, 0);
+    height: 700px;
+    width: 100%;
+    
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.store-coll-div1-p1{
+
+    color: aliceblue;
+    font-size: 90px;
+    display: inline-flex;
+    margin-left: 540px;
+    margin-top: 30px;
+}
+.store-coll-div1-p2{
+
+    color: aliceblue;
+    
+    
+
+    display: inline-flex;
+    font-size: 30px;
+    margin-left: 620px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(26, 26, 26);
+    color: aliceblue;
+    border-radius: 13px;
+
+}
+.store-coll-div1-img{
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+.rolex-div{
+    background-color: rgb(0, 0, 0);
+    
+}
+.rolex-div-sub{
+    background-color: rgb(0, 0, 0);
+    margin-top: 0px;
+    display: flex;
+
+}
+.rolex-div-sub-img{
+    width: 600px;
+    height: 600px;
+    padding-top: 50px;
+}
+.rolex-div-sub-img5{
+    width: 540px;
+    height: 540px;
+    padding-top: 50px;
+    padding-left: 35px;
+
+}
+
+.rolex-div-sub-p1{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    margin-top: 200px;
+    display: flex;
+}
+.rolex-div-sub-p2{
+
+    color: rgb(183, 178, 161);
+    font-size: 40px;
+    margin-right: 200px;
+}
+.rolex-div-sub-p3{
+    color: rgb(183, 178, 161);
+    font-size: 30px;
+    margin-top: 17px;
+    margin-left: 3px;
+
+}
+
+.rolex-div-sub-p4{
+   
+    display: inline-flex;
+    font-size: 30px;
+    margin-left: 5px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgb(26, 26, 26);
+    color: aliceblue;
+    border-radius: 13px;
+    
+   
+}
+
